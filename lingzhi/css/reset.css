@@ -1,0 +1,50 @@
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, 
+em, img,strong,var,b, i,
+dl, dt, dd, ol, ul, li,
+form, label,input,select,textarea, 
+table, caption, tbody, tfoot, thead, tr, th, td
+{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    background:transparent;
+  
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family: Microsoft Yahei;
+}
+ul , ol{
+    list-style:none;
+}
+a{
+	color:#000;
+	text-decoration: none;
+}
+a img{
+	border:none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both; 
+}
+iframe{
+	height: 60px;
+}
